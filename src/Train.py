@@ -45,7 +45,7 @@ def run_training():
 
     cnn = CNNModel()
     cnn.train(X_train, y_train, X_val, y_val)
-    model.save("../models/model_CNN_02.h5")
+    model.save("../models/model_CNN.h5")
 
 if __name__ == '__main__':
     run_training()
